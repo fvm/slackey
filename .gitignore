@@ -23,3 +23,14 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+app/src/main/resources/static/
+app/src/main/resources/templates/
+app/target/generated-sources/
+app/target/generated-test-sources/
+app/target/slackey/META-INF/
+service/src/main/java/com/github/fvm/slackey/service/api/v1/commands/slash/domain/dtos/
+service/src/main/java/com/github/fvm/slackey/service/api/v1/commands/slash/domain/entities/
+service/src/main/java/com/github/fvm/slackey/service/api/v1/commands/slash/mapping/
+service/src/main/resources/
+service/src/test/
+service/target/generated-sources/
