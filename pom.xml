@@ -4,7 +4,7 @@
 
     <groupId>com.github.fvm.slackey</groupId>
     <artifactId>slackey-parent</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <modules>
         <module>app</module>
         <module>service</module>
@@ -32,7 +32,7 @@
     </properties>
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/fvm/slackey</developerConnection>
-      <tag>v0.0.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencyManagement>
