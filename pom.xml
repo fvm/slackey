@@ -32,7 +32,7 @@
         <start-class>com.github.fvm.slackey.SlackeyApplication</start-class>
     </properties>
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/fvm/slackey</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/fvm/slackey</developerConnection>
     </scm>
 
     <dependencyManagement>
