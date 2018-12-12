@@ -1,3 +1,12 @@
 spring:
   application:
     name: "slackey"
+
+server:
+  http2:
+    enabled: true
+  compression:
+    enabled: true
+  jetty:
+    max-http-post-size: 200KB
+

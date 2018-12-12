@@ -10,14 +10,14 @@
         <module>service</module>
     </modules>
     <packaging>pom</packaging>
-    <name>slackey</name>
+    <name>slackey-parent</name>
     <description>Slackey</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.1.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -32,8 +32,8 @@
     </properties>
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/fvm/slackey</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencyManagement>
         <dependencies>
@@ -88,6 +88,11 @@
                         <source>${java.version}</source>
                         <target>${java.version}</target>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>9.3.7.v20160115</version>
                 </plugin>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
